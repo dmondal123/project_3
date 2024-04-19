@@ -8,6 +8,8 @@ Note: This notebook can only be recreated on Google Colab if you are using a MAC
 
 The pre-trained model used to generate the songs, i.e. a [recreation of MuseNet](https://huggingface.co/hidude562/OpenMusenet-2.11-L) only has instruments as piano, drums, strings, woodwind, brass, and synthesizer which makes it difficult to recreate songs with instruents such as electric guitar or bass as its main instrument. However, it captures the essence of a rhythm guitar or bass which usually play a melody on loop throughout some sections of a song by recreating the same by playing multiple piano tracks simultaneously with one playing the main melody, the other playing the harmonies or chords and so on.
 
+Note: The temperature or the randomness for generating these songs has been set to a random value between 0.6 and 0.9 because I want my generations to be more creative. Setting it to a value below 0.5 led to very repeatitive notes.
+
 ## Table of Contents
 - [Requirements](#requirements)
 - [Usage](#usage)
